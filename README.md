@@ -1,12 +1,103 @@
-# LastWar
-Last War: Survival Game
+# Discord Bots Repository
 
+This repository contains the code for various Discord bots developed for different purposes. Below are the details and setup instructions for each bot.
 
-# Marshall Timer
+## Bots
 
+1. **Alliance VS Alliance Bot**
+2. **Marshalls Timer Bot**
 
-# Alliance VS Alliance Announcemnts
+## Alliance VS Alliance Bot
 
-'''
-https://discord.com/oauth2/authorize?client_id=1256055579823046758
-'''
+The Alliance VS Alliance bot is designed to manage and automate tasks for alliances in the game. It sends scheduled announcements to remind alliance members of important tasks and events.
+
+### Features
+
+- Schedules announcements based on the day of the week.
+- Customizable task and strategy messages.
+- Commands to start, stop, and check the status of the bot.
+- Command to manually set the current day for scheduling purposes.
+
+### Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/discord-bots.git
+    cd discord-bots/alliance-vs-alliance
+    ```
+
+2. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. Create a `.env` file in the directory with your bot token:
+    ```bash
+    echo "DISCORD_TOKEN=your_bot_token" > .env
+    ```
+
+4. Run the bot:
+    ```bash
+    python alliance_vs_bot.py
+    ```
+
+### Commands
+
+- `!alliancevsstart` - Start the Alliance VS bot in the current channel.
+- `!alliancevsstop` - Stop the Alliance VS bot in the current channel.
+- `!alliancevsstatus` - Check if the Alliance VS bot is running in the current channel.
+- `!showtasks` - Show the current weekly tasks schedule.
+- `!nextannouncement` - Show the next scheduled announcement.
+- `!alliancevssetdate [sun, mon, tue, wed, thu, fri, sat]` - Set the current day.
+- `!alliancevshelp` - Show the help message.
+
+### Invite Link
+
+To invite the Alliance VS Alliance bot to your server, use [this link](https://discord.com/oauth2/authorize?client_id=1256055579823046758).
+
+## Marshalls Timer Bot
+
+The Marshalls Timer bot is designed to provide reminders and timers for various events and activities within the game.
+
+### Features
+
+- Set timers and receive notifications for various game events.
+- Customizable timer settings and messages.
+
+### Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/discord-bots.git
+    cd discord-bots/marshalls-timer
+    ```
+
+2. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. Create a `.env` file in the directory with your bot token:
+    ```bash
+    echo "DISCORD_TOKEN=your_bot_token" > .env
+    ```
+
+4. Run the bot:
+    ```bash
+    python marshalls_timer_bot.py
+    ```
+
+### Commands
+
+- `!settimer [time] [event]` - Set a timer for a specified event.
+- `!canceltimer [event]` - Cancel a timer for a specified event.
+- `!timers` - List all active timers.
+- `!timerhelp` - Show the help message.
+
+### Invite Link
+
+To invite the Marshalls Timer bot to your server, use [this link](https://discord.com/oauth2/authorize?client_id=1250659555034136670).
+
+---
+
+Feel free to contribute to this repository by submitting issues or pull requests. If you have any questions or need further assistance, please contact the repository owner.
