@@ -1,6 +1,6 @@
 # Discord Bots Repository
 
-This repository contains the code for various Discord bots developed for different purposes. Below are the details and setup instructions for each bot.
+This repository provides reference information and invite links for various Discord bots developed for different purposes.
 
 ## Bots
 
@@ -17,29 +17,6 @@ The Alliance VS Alliance bot is designed to manage and automate tasks for allian
 - Customizable task and strategy messages.
 - Commands to start, stop, and check the status of the bot.
 - Command to manually set the current day for scheduling purposes.
-
-### Installation
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/discord-bots.git
-    cd discord-bots/alliance-vs-alliance
-    ```
-
-2. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. Create a `.env` file in the directory with your bot token:
-    ```bash
-    echo "DISCORD_TOKEN=your_bot_token" > .env
-    ```
-
-4. Run the bot:
-    ```bash
-    python alliance_vs_bot.py
-    ```
 
 ### Commands
 
@@ -64,29 +41,6 @@ The Marshalls Timer bot is designed to provide reminders and timers for various 
 - Set timers and receive notifications for various game events.
 - Customizable timer settings and messages.
 
-### Installation
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/discord-bots.git
-    cd discord-bots/marshalls-timer
-    ```
-
-2. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. Create a `.env` file in the directory with your bot token:
-    ```bash
-    echo "DISCORD_TOKEN=your_bot_token" > .env
-    ```
-
-4. Run the bot:
-    ```bash
-    python marshalls_timer_bot.py
-    ```
-
 ### Commands
 
 - `!settimer [time] [event]` - Set a timer for a specified event.
@@ -100,4 +54,4 @@ To invite the Marshalls Timer bot to your server, use [this link](https://discor
 
 ---
 
-Feel free to contribute to this repository by submitting issues or pull requests. If you have any questions or need further assistance, please contact the repository owner.
+Feel free to use these bots in your Discord servers. If you have any questions or need further assistance, please contact the repository owner.
